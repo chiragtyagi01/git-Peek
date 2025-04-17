@@ -102,14 +102,14 @@ function updateProfile(data){
 function darkModeProperties() {
   document.body.classList.add("dark");
   modetext.innerText = "LIGHT";
-  modeicon.src = "./images/sun-icon.svg";
+  modeicon.src = "https://raw.githubusercontent.com/chiragtyagi01/git-Peek/22ed8acf2e05a585cfe928c17414d2bf9fd350f7/images/sun-icon.svg";
   darkMode = true;
 }
 
 function lightModeProperties() {
   document.body.classList.remove("dark");
   modetext.innerText = "DARK";
-  modeicon.src = "./images/moon-icon.svg";
+  modeicon.src = "https://raw.githubusercontent.com/chiragtyagi01/git-Peek/22ed8acf2e05a585cfe928c17414d2bf9fd350f7/images/moon-icon.svg";
   darkMode = false;
 }
 
